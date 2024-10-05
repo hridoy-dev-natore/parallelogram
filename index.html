@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallelogram</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="mains">
+        <!-- all div -->
+        <div>
+            <!-- card div st -->
+            <div>
+                <div class="card card-compact bg-base-100 w-96 shadow-xl  ">
+                    <figure>
+                      <img
+                        src="img/images/parallelogram.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body ">
+                      <h2 class="card-title center">Parallelogram</h2>
+                      <p class="">IArea (A) = b h</p>
+                      <div class="center">
+                        <!-- card 1 -->
+                        <input id="inputbtn1"
+                        type="text"
+                        placeholder="b=10cm,"
+                        class="input input-bordered input-secondary w-24" />
+                        <!-- card2 -->
+                        <input id="inputbtn2"
+                        type="text"
+                        placeholder="h=12cm"
+                        class="input input-bordered input-secondary w-24" />
+                      </div>
+                      <div class="card-actions justify-end">
+                        <button onclick="buttonpramitas()" class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <!-- card div end -->
+            <div>
+
+            </div>
+        </div>
+        <div class="w-96 border-2 border-gray-700 md">
+          <h3 id="rectangle-area" class="text-3*1 text-center p-4">Area calculate</h3>
+        </div>
+    </main>
+    <script src="Parallelogram.js"></script>
+</body>
+</html>
